@@ -1,0 +1,65 @@
+/*
+#f58b00 Tangerine
+#0C0908 Coal
+#2aa10f Kelly Green
+#FFFF00 Sunshine
+#5D3FD3 Iris
+#C0C2C9 Slate Gray
+*/
+
+body {
+	background-color: #282C35 /*Ebony*/; 
+	color: white;
+	margin: 0px;
+}
+
+p {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.greeting{
+	text-align: center;
+	background-color: #5D3FD3;
+}
+#heading {
+	margin-top: 0px;
+	min-height: 15vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(100% + 10vw);
+	margin-bottom: 0px;
+}
+
+#id {
+	list-style: none;
+	text-align: center;
+}
+
+.breadcrumb {
+	padding: 0 .5rem;
+	background-color: #C0C2C9;
+}
+
+.breadcrumb ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.breadcrumb li:not(:last-child)::after {
+	display: inline-block;
+	content: "→";
+}
+
+.nav {
+	color: white;
+	text-decoration: none;
+}
