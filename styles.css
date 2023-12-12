@@ -61,6 +61,7 @@ h2 {
 .breadcrumb li:not(:last-child)::after {
 	display: inline-block;
 	content: "→";
+	color: black;
 }
 
 .nav {
