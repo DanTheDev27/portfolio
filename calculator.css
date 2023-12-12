@@ -68,6 +68,10 @@ input[type=text] {
 .breadcrumb {
 	padding: 0 .5rem;
 	background-color: #C0C2C9;
+	min-height: 5vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .breadcrumb ul{
