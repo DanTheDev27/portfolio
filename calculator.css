@@ -86,6 +86,7 @@ input[type=text] {
 .breadcrumb li:not(:last-child)::after {
 	display: inline-block;
 	content: "→";
+	color: black;
 }
 .nav {
 	color: black;
