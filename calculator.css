@@ -31,7 +31,7 @@ h2 {
 	height: 40px;
 	background-color: #C0C2C9;
 	table-layout: fixed;
-	width: fit-content;
+	width: auto;
 }
 
 /*#button {
