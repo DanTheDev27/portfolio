@@ -36,7 +36,8 @@ h2 {
 }
 
 td {
-	padding: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 input[type=button] {
