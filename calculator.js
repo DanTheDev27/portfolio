@@ -30,6 +30,11 @@
             let y = math.evaluate(x) 
             document.getElementById("result").value = y 
         } 
+
+        function back() {
+            var value = document.getElementById("result").value;
+            document.getElementById("result").value = value.substring(0, value.length -1);
+        }
   
         // Function that clear the display 
         function clr() { 
