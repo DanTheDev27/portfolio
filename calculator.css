@@ -38,6 +38,8 @@ h2 {
 #td-one {
 	padding-top: 20px;
 	padding-bottom: 40px;
+	border: solid #C0C2C9 2px;
+	border-radius: 20px;
 }
 
 td {
