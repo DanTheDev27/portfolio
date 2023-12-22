@@ -29,7 +29,7 @@ h2 {
 #main-div {
 	display:flex;
 	flex-direction: row;
-	margin-top: 17vh;
+	margin-top: 16vh;
 }
 
 .greeting{
