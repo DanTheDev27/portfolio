@@ -21,29 +21,67 @@ h2 {
 	text-align: center;
 }
 
+#intro-div {
+	display:flex;
+	flex-direction: row;
+}
+
+#main-div {
+	display:flex;
+	flex-direction: row;
+}
+
 .greeting{
 	text-align: center;
 	background-color: #5D3FD3;
+	width: 50vw;
 }
+.flex-container {
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 35vw;
+	padding-left: 5vw;
+}
+
 #heading {
 	margin-top: 0px;
 	min-height: 15vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: calc(100% + 10vw);
+	font-size: calc(100% + 8vw);
 	margin-bottom: 0px;
 }
 
-#id {
+#id{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 	list-style: none;
 	text-align: center;
+	padding-left: 0px;
+}
+
+#technologies {
+	display:flex;
+	width: fit-content;
+	width: -moz-fit-content;
+}
+.icon {
+	height:auto;
+	width:45px;
+}
+#intro {
+	width: 45vw;
+	margin: 5vh 0px 0px 3vw;
 }
 
 .breadcrumb {
 	padding: 0 .5rem;
 	background-color: #C0C2C9;
-	min-height: 5vh;
+	max-height: 5vh;
+	min-width: 50vw;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
