@@ -22,12 +22,12 @@ h2 {
 }
 
 #intro-div {
-	display:flex;
+	display: flex;
 	flex-direction: row;
 }
 
 #main-div {
-	display:flex;
+	display: flex;
 	flex-direction: row;
 	margin-top: 16vh;
 }
@@ -38,7 +38,7 @@ h2 {
 	width: 50vw;
 }
 .flex-container {
-	display:flex;
+	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	width: 35vw;
@@ -56,7 +56,7 @@ h2 {
 }
 
 #id{
-	display:flex;
+	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	list-style: none;
@@ -65,12 +65,13 @@ h2 {
 }
 
 #technologies {
-	display:flex;
+	display: flex;
 	width: fit-content;
 	width: -moz-fit-content;
+	margin: 5vh 0px 0px 3vw;
 }
 .icon {
-	height:auto;
+	height: auto;
 	width:45px;
 }
 #intro {
