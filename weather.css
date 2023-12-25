@@ -29,8 +29,8 @@ button {
   margin: 0.7em;
   border-radius: 50%;
   border: none;
-  height: 2.5em;
-  width: 2.5em;
+  min-height: 2.5em;
+  min-width: 2.5em;
   outline: none;
   background: #7c7c7c2b;
   color: white;
