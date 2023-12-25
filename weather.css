@@ -1,0 +1,119 @@
+body {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  height: 100vh;
+  background-color: #282C35 /*Ebony*/; 
+  /*color: white;*/
+  font-size: 120%;
+  margin: 0px;
+  /*background-image: url('https://source.unsplash.com/1600x900/?landscape');*/
+}
+
+.card {
+  background: #000000d0;
+  color: white;
+  padding:1em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 2.5em;
+  width: 2.5em;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #7c7c7c6b;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: .4em 1em;
+  border-radius: 25px;
+  background: #7c7c7c2b;
+  color: white;
+  font-size: 105%;
+  width: calc(100% - 100px);
+}
+
+h1.temp {
+  margin: 0;
+  margin-bottom: .5em;
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 8px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.weather.loading{
+  visibility: hidden;
+  position: relative;
+}
+
+/*.weather.loading:after {
+  visibility: visible;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  top: 0;
+}*/
+
+.breadcrumb {
+	padding: 0 .5rem;
+	background-color: #000000d0;
+	max-height: 5vh;
+	min-width: 50vw;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.breadcrumb ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.breadcrumb li:not(:last-child)::after {
+	display: inline-block;
+	content: "→";
+	color: white;
+}
+
+.nav {
+	color: white;
+	text-decoration: none;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
