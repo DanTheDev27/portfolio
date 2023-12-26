@@ -60,6 +60,12 @@ h1.temp {
   margin-bottom: .5em;
 }
 
+h3 {
+  margin: 0;
+  margin-bottom: .5em;
+  text-transform: capitalize;
+}
+
 .description {
   text-transform: capitalize;
   margin-left: 8px;
