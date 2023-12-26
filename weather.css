@@ -37,9 +37,10 @@ button {
   color: white;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  padding: 0px;
 }
 
-button:hover {
+button: hover {
   background: #7c7c7c6b;
 }
 
