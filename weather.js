@@ -1,8 +1,8 @@
 /*Openweather api key*/
-/*faac7de9b50d394c89d18dc27cb6e571
+/*
 
 let weather = {
-    apiKey: "faac7de9b50d394c89d18dc27cb6e571",
+    apiKey: "",
     fetchWeather: function (city) {
         fetch("https://api.openweathermap.org/data/2.5/weather?q="
          + city 
@@ -43,7 +43,7 @@ document.querySelector(".search-bar").addEventListener("keyup", function(event) 
 weather.fetchWeather("")*/
 
 let weather = {
-    apiKey: "faac7de9b50d394c89d18dc27cb6e571",
+    apiKey: "",
     fetchCoordinates: function (city,state,country ) {
         fetch("http://api.openweathermap.org/geo/1.0/direct?q="+ city + "," + state + "," + country +"&limit=2&appid="+ this.apiKey
          )
