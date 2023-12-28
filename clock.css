@@ -28,3 +28,33 @@ body {
 #hour, #min, #seconds {
     font-size: calc(6*(1vh + .5vw));
 }
+
+.breadcrumb {
+	padding: 0 .5rem;
+	background-color: #000000d0;
+	max-height: 5vh;
+	min-width: 50vw;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.breadcrumb ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.breadcrumb li:not(:last-child)::after {
+	display: inline-block;
+	content: "→";
+	color: white;
+}
+
+.nav {
+	color: white;
+	text-decoration: none;
+}
