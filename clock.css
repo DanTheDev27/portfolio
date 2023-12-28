@@ -9,6 +9,7 @@ body {
 .clock {
     border: solid 2px white;
     border-radius: 10px;
+    border-style: inset;
     box-shadow: 0px 0px 0px 0px, -5px -5px 5px black;
     height: 200px;
     max-width: 70vw;
