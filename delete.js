@@ -50,6 +50,7 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
   /**
   * Utility function to update the button text and aria-label.
   */
+  document.getElementsByClassName("sun")
   function updateButton({ buttonEl, isDark }) {
     const newCta = isDark ? "Change to light theme" : "Change to dark theme";
     // use an aria-label if you are omitting text on the button
