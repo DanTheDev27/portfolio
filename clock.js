@@ -15,7 +15,7 @@ function setDate() {
     min = (min<10) ? "0" + min: min;
     seconds = (seconds<10) ? "0" + seconds: seconds;
 
-    document.getElementById("hour").innerText = hours -12 ;
+    document.getElementById("hour").innerText = hours % 12 ;
     document.getElementById("min").innerText = min;
     document.getElementById("seconds").innerText = seconds;
     document.getElementById("ampm").innerText = session;
