@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    background: linear-gradient(112.1deg, #161826 21.4%, #5F73B3 90.2%);
+    /* rgb(32, 38, 57) 21.4%, rgb(63, 76, 119)  90.2% */
     /* background: #018DED url('https://source.unsplash.com/1600x900/?sunrise'); */
     height: 100vh;
     margin: 0;
