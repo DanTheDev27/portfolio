@@ -94,6 +94,7 @@ h1 {
    background: var(--color-bg);
    color: var(--color-fg);
    min-height: 100vh;
+   margin: 0px;
    /* place-items: center; */
  }
  
@@ -185,26 +186,23 @@ h1 {
     top: 9px;
  }
 
- label svg.sun {
+ label svg#sun {
     left: 9px;
     fill: orange;
  }
-
- label svg.moon {
+ label svg#moon {
     left: 35px;
     fill: #E6E6FA;
  }
  input + .slider:before {
     background: orangered;
  }
- input + .slider:after + svg.sun {
-    fill: black;
- }
 
- input:checked + .slider:before {
+
+ input:checked + .slider:before  {
     background: #5c54a4;
  }
-
+/* 
  input:checked + .slider:after {
     background: orangered;
- }
+ } */
