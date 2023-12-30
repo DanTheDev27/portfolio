@@ -66,6 +66,8 @@ textarea:focus, input:focus {
     width: fit-content;
     border: none;
     border-radius: 5px;
+    height: 4vh;
+    font-size: 3vh;
 }
 
 #calculate:hover {
@@ -79,6 +81,8 @@ textarea:focus, input:focus {
     width:fit-content;
     border: none;
     border-radius: 5px;
+    height: 4vh;
+    font-size: 3vh;
 }
 
 #erase:hover {
@@ -99,6 +103,7 @@ input[type=number]::-webkit-inner-spin-button {
 #buttons {
     display: flex;
     justify-content: space-around;
+    height: auto;
 }
 
 p {
