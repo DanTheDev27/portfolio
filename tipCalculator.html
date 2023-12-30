@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio built to showcase learned skills and display value to future employers">
+    <meta name="keywords" content="HTML, Css, Js, Python, Django, C#, Kotlin, Programming, Portfolio, Developer ">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="tipCalculator.css">
+    <link rel="icon" href="css.png">
+
+    <nav class = "breadcrumb">
+        <ul>
+            <li><a class="nav" href="index.html">Home</a></li>
+            <li><a class="nav" href="calculator.html">Calculator</a></li>
+            <li><a class="nav" href="clock.html">Clock</a></li>
+            <!--<li><a class="nav" href="clock.html">Weather</a></li>-->
+        </ul>
+    </nav>
+
+</head>
+<body>
+    <h1>Tip Calculator</h1>
+    <div class="card">
+        <label for="mealAmount">Enter the price of your meal $<input type="number" name="mealPrice" id="mealAmount"></label>
+        
+        <label for="inputOne">How much do you want to tip?
+            <input type="number" name="tipPercentage" id="service">
+        </label>
+        <!-- <input type="range" name="rangeInput" id="inputOne" min="1" max="100" value="18" onchange="updateValueInput(this.value)">
+        <input type="text" id="textInput" value="" onkeydown="enterKey"></input>
+        <output id="textInput">18%</output> -->
+        <label for="numofPeople">How many people are splitting the bill? <input type="number" name="numofPeople" id="numofPeople"></label>
+        <p id="total"></p>
+        <p id="tipAmount"></p>
+        <p id="totalDivided"></p>
+        <div id="buttons">
+        <button id="calculate" onclick="calculate()"><svg id="moneySign" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"></path></svg> Calculate</button>
+        <button id="erase" onclick="erase()"><svg id="eraser" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M497.941 273.941c18.745-18.745 18.745-49.137 0-67.882l-160-160c-18.745-18.745-49.136-18.746-67.883 0l-256 256c-18.745 18.745-18.745 49.137 0 67.882l96 96A48.004 48.004 0 0 0 144 480h356c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12H355.883l142.058-142.059zm-302.627-62.627l137.373 137.373L265.373 416H150.628l-80-80 124.686-124.686z"></path></svg> Reset</button>
+        </div>
+    </div>
+</body>
+<script src="tipCalculator.js"></script>
+</html>
