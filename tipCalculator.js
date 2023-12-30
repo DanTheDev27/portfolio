@@ -22,7 +22,6 @@ function calculate() {
         }
 
         errorMessage= "You can not leave the fields empty";
-        // errorMessage.style.color= "red";
         displayError.style.color= "red";
         displayError.style.textAlign= "center";
         displayError.style.fontSize= "130%";
