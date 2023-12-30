@@ -25,7 +25,7 @@ function calculate() {
         displayError.style.color= "red";
         displayError.style.textAlign= "center";
         displayError.style.fontSize= "130%";
-        if (document.getElementById("mealAmount").value==="",  document.getElementById("service").value==="", document.getElementById("numofPeople").value==="") {
+        if (document.getElementById("mealAmount").value==="",  document.getElementById("service").value==="") {
             displayTotal.innerText= "";
             displayTipAmount.innerText= "";
             displayTotalDivided.innerText= "";
