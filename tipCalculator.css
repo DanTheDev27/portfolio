@@ -1,4 +1,5 @@
 /* #33FF57 vivid lime green #33FFBD */
+/* linear-gradient(290deg,#33ff8a,#42ff33) */
 body {
     margin: 0px;
     background: linear-gradient(120deg,#33FF57, #33FFBD);
@@ -15,7 +16,7 @@ div.card {
     display: flex;
     flex-direction: column;
     transform: translateY(5%);
-    background: linear-gradient(290deg,#33ff8a,#42ff33);
+    background: #00000066;
     margin-left: auto;
     margin-right: auto;
     height: 350px;
@@ -24,6 +25,11 @@ div.card {
     /* border: solid 2px black; */
     gap: 10px;
     padding: 15px;
+}
+@media only screen and (max-width: 400px) {
+    div.card {
+        margin: 10vw;
+    } 
 }
 
 #mealAmount {
@@ -58,11 +64,6 @@ textarea:focus, input:focus {
     width: fit-content;
     border: none;
     border-radius: 5px;
-}
-#moneySign {
-    height: 1.1em;
-    width:auto;
-    color:green;
 }
 #erase {
     display: flex;
@@ -115,6 +116,51 @@ p {
 	color: white;
 }
 
+.nav {
+	color: white;
+	text-decoration: none;
+}
+ /* svgs */
+#moneySign {
+    height: 1.1em;
+    width:auto;
+    color:green;
+}
+
+#dollarSign {
+    height: 2em;
+    width: auto;
+}
+
+#divisionSign {
+    height: 2em;
+    width: auto;
+}
+
+#percent {
+    height: 1.5em;
+    width: auto;
+}
+
+/* divs */
+#meal {
+    display: flex;
+    align-items: end;
+}
+
+#serviceQuality {
+    display: flex;
+    align-items: end;
+}
+
+#totalPeople {
+    display:flex;
+    align-items: end;
+}
+
+input {
+    height: 20px;
+}
 .nav {
 	color: white;
 	text-decoration: none;
