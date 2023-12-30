@@ -68,6 +68,7 @@ textarea:focus, input:focus {
     border-radius: 5px;
     height: 3vh;
     font-size: 2.5vh;
+    color: black;
 }
 
 #calculate:hover {
@@ -83,6 +84,7 @@ textarea:focus, input:focus {
     border-radius: 5px;
     height: 3vh;
     font-size: 2.5vh;
+    color: black;
 }
 
 #erase:hover {
