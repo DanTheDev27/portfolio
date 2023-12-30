@@ -65,6 +65,12 @@ textarea:focus, input:focus {
     border: none;
     border-radius: 5px;
 }
+
+#calculate:hover {
+    background: #d0ffd844;
+    cursor: pointer;
+}
+
 #erase {
     display: flex;
     background: #d0ffd8;
@@ -72,6 +78,12 @@ textarea:focus, input:focus {
     border: none;
     border-radius: 5px;
 }
+
+#erase:hover {
+    background: #d0ffd844;
+    cursor: pointer;
+}
+
 #eraser {
     height: 1.1em;
     width: auto;
