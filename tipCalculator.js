@@ -8,6 +8,7 @@ function calculate() {
         var displayTotal = document.getElementById("total");
         var displayTipAmount = document.getElementById("tipAmount");
         var displayTotalDivided = document.getElementById("totalDivided");
+        var displayError = document.getElementById("error");
 
         var tipAmount = mealAmount * tipPercentage;
         var totalBill = mealAmount + tipAmount;
@@ -19,8 +20,25 @@ function calculate() {
         if (!totalPeople === "" || totalPeople> 1) {
             displayTotalDivided.innerText="Each person pays" + " $" + totalDivided.toFixed(2);
         }
-        //console.log(typeof totalPeople);
+
+        errorMessage= "You can not leave the fields empty";
+        // errorMessage.style.color= "red";
+        displayError.style.color= "red";
+        displayError.style.textAlign= "center";
+        displayError.style.fontSize= "130%";
+        if (document.getElementById("mealAmount").value==="",  document.getElementById("service").value==="", document.getElementById("numofPeople").value==="") {
+            displayTotal.innerText= "";
+            displayTipAmount.innerText= "";
+            displayTotalDivided.innerText= "";
+            displayError.innerText= errorMessage;
+
+        } else {
+            displayError.innerText= "";
+        }
+        
     })
+
+    
 }
 
 function erase() {
@@ -28,5 +46,10 @@ function erase() {
         document.getElementById("mealAmount").value="";
         document.getElementById("service").value="";
         document.getElementById("numofPeople").value="";
+        document.getElementById("total").innerText="";
+        document.getElementById("tipAmount").innerText="";
+        document.getElementById("totalDivided").innerText="";
+
+        
     })
 }
