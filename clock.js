@@ -7,7 +7,7 @@ function setDate() {
     var session = "AM"
 
     if (hours>12) {
-        //hours = hours -12;
+        hours = hours -12;
         session = "PM"
     }
 
