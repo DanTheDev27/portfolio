@@ -2,7 +2,7 @@ function calculate() {
     var calcButton = document.getElementById("calculate");
 
     calcButton.addEventListener("click", function() {
-        var mealAmount = parseInt(document.getElementById("mealAmount").value);
+        var mealAmount = parseFloat(document.getElementById("mealAmount").value);
         var tipPercentage = document.getElementById("service").value / 100;
         var totalPeople = parseInt(document.getElementById("numofPeople").value);
         var displayTotal = document.getElementById("total");
