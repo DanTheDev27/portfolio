@@ -8,6 +8,7 @@ function setDate() {
     var year = date.getFullYear();
     var month = date.getMonth() + 1;
     var day = date.getDate();
+    var monthDayYear = month + "-" + day + "-" + year;
 
     if (hours>12) {
         hours = hours -12;
@@ -22,7 +23,7 @@ function setDate() {
     document.getElementById("min").innerText = min;
     document.getElementById("seconds").innerText = seconds;
     document.getElementById("ampm").innerText = session;
-    document.getElementById("date").innerText = month + "  - " + day + " - " +  year;
+    document.getElementById("date").innerText = monthDayYear.toLocaleString();
 
     setTimeout(setDate, 1000);
     
