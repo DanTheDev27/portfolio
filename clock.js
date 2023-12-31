@@ -5,6 +5,9 @@ function setDate() {
     var min = date.getMinutes();
     var seconds = date.getSeconds();
     var session = "AM"
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    var day = date.getDate();
 
     if (hours>12) {
         hours = hours -12;
@@ -19,6 +22,7 @@ function setDate() {
     document.getElementById("min").innerText = min;
     document.getElementById("seconds").innerText = seconds;
     document.getElementById("ampm").innerText = session;
+    document.getElementById("date").innerText = month + "  - " + day + " - " +  year;
 
     setTimeout(setDate, 1000);
     
