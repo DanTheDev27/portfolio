@@ -63,3 +63,9 @@ body {
 	color: white;
 	text-decoration: none;
 }
+
+#date {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
