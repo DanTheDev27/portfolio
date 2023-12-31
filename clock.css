@@ -26,7 +26,7 @@ body {
     justify-content: center;
     color: white;
     align-items: center;
-    height: 200px;
+    height: 75%;
     gap: 20px;
 }
 #hour, #min, #seconds {
