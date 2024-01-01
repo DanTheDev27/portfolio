@@ -1,3 +1,5 @@
+var newYearsDay = "1-1-2024"
+
 function setDate() {
     const date = new Date();
 
@@ -26,6 +28,10 @@ function setDate() {
     document.getElementById("date").innerText = monthDayYear.toLocaleString();
 
     setTimeout(setDate, 1000);
+
+    if (monthDayYear ==newYearsDay) {
+        document.getElementById("holidays").innerText = "New Years Day";
+    }
     
 }
 setDate();
