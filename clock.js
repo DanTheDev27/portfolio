@@ -31,6 +31,8 @@ function setDate() {
 
     if (monthDayYear ==newYearsDay) {
         document.getElementById("holidays").innerText = "New Years Day";
+    } else {
+        document.getElementById("holidays").style.display = "none";
     }
     
 }
