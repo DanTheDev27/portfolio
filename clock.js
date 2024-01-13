@@ -34,6 +34,7 @@ function setDate() {
         document.getElementById("holidays").innerText = "David's Birthday";
     } else {
         document.getElementById("holidays").style.display = "none";
+        document.getElementById("image").style.display= "none";
     }
     
 }
