@@ -1,4 +1,5 @@
 var newYearsDay = "1-1-2024"
+var davidsBday = "1-13-2024"
 
 function setDate() {
     const date = new Date();
@@ -14,7 +15,9 @@ function setDate() {
 
     if (hours>12) {
         hours = hours -12;
-        session = "PM"
+        //session = "PM"
+    } else {
+        session = "PM";
     }
 
     hours = (hours<10) ? "0" + hours: hours;
@@ -29,8 +32,8 @@ function setDate() {
 
     setTimeout(setDate, 1000);
 
-    if (monthDayYear ==newYearsDay) {
-        document.getElementById("holidays").innerText = "New Years Day";
+    if (monthDayYear == davidsBday) {
+        document.getElementById("holidays").innerText = "David's Birthday";
     } else {
         document.getElementById("holidays").style.display = "none";
     }
