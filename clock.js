@@ -15,10 +15,8 @@ function setDate() {
 
     if (hours>12) {
         hours = hours -12;
-        //session = "PM"
-    } else {
-        session = "PM";
-    }
+        session = "PM"
+    } 
 
     hours = (hours<10) ? "0" + hours: hours;
     min = (min<10) ? "0" + min: min;
