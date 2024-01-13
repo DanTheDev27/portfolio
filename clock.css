@@ -77,3 +77,24 @@ body {
     font-size: xx-large;
     color: white;
 }
+
+#image {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 21%;
+    /* left: 50%;
+    right: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 15vh;
+    width: auto;
+    object-fit: fill;
+
+}
+img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    object-position: 50%;
+}
